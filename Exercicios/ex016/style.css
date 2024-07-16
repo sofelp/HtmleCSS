@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    font-family: monospace;   
+}
+body {
+    
+    background-image: linear-gradient(to right, #E0F0FF, #A8CCED) 
+}
+main {
+    background-color: #192F43;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
+    margin-top: 50px;
+}
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.596);
+}
+

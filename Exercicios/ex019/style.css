@@ -1,0 +1,26 @@
+@charset "UTF-8" ;
+body {
+    background-color: darkgreen;
+    color: white;
+}
+
+h1 {
+    color: rgb(233, 250, 203);
+}
+
+h2 {
+    color: rgb(201, 251, 143);
+}
+
+h1#principal {
+    text-align: center;
+    font-size: 3em;
+}
+
+.basico {
+    color: aquamarine;
+}
+
+.avancado {
+    color: brown;
+}

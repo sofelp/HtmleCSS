@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de site com uso das tags semanticas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+
+        }
+header {
+    background-color: rgb(5, 5, 134);
+    color: white;
+    padding: 5px 10px 20px 30px;
+    margin: 0px;
+    outline: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+main > section > article > h2 {
+    text-align: center;
+    color: white;
+}
+
+main {
+    margin: 50px;
+    background-color: gray;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.29);
+
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Felipe Designer </h1>
+        <nav>
+            <a href="#">Sobre</a>
+            <a href="#">Projetos</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Sites">
+            <article>
+                <h2>Criação de Sites</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid officia ab laudantium culpa cumque distinctio minima, id qui iste ad quisquam, atque veniam corrupti, est dolor sapiente maiores voluptatem fugit.</p>
+                <aside>By Felipe de Souza @studiodedesign</aside>
+            </article>
+            <article>
+                <h2>Identidade Visuais</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto reprehenderit fugit voluptas suscipit quam similique facere, dolorum tenetur ipsa ducimus, maxime officiis minus, facilis excepturi. Impedit incidunt laborum enim magnam?</p>
+
+                Vejas mais projetos <a href="#">clicando aqui</a>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
