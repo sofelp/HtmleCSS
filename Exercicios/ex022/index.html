@@ -3,29 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Responsividadde</title>
+    <title>Teste com imagens de fundo</title>
 
     <style>
 
-    div.quadrado {
-        display: inline-block;
-        border-color: black;
-        border-radius: 2px;
-    }
+        div.quadrado {
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: rgb(167, 167, 167);
+            width: 300px;
+            height: 300px;
+        }
+
+        div#q1 {
+
+        background-color: blue;
+        }
+        div#q2 {
+
+        background-image: linear-gradient(to bottom, yellow, green);
+        }
+
+        div#q3 {
+            background-image: url('imagens/pattern001.png')
+        }
+
+        body {
+            background-image: url(imagens/wallpaper001.jpg)
+        }
     </style>
 </head>
 <body>
-    <div class="quadrado">
+    <div class="quadrado" id="q1">
 
     </div>
 
-    <div class="quadrado">
+    <div class="quadrado" id="q2">
 
     </div>
 
-    <div class="quadrado">
+    <div class="quadrado" id="q3">
 
     </div>
     
+
+    <p>awdaihdoahd</p>
 </body>
 </html>
