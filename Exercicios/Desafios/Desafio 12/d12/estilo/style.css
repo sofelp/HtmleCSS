@@ -1,4 +1,62 @@
 @charset "UTF-8" ;
-body {
-    background-color: aquamarine;
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, main {
+    background-color: white;
+
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
+
+header > h1 {
+    padding-top: 50px;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    line-height: 5vh;
+}
+
+section > p {
+    margin: 5vh;
+}
+
+section.imagem {
+background-color: black;
+padding-top: 1vh;
+padding-bottom: 1vh;
+}
+
+section.imagem > p {
+    background-color: rgb(21, 21, 21);
+    color: white;
+    width: 300px;
+    padding-left: 20px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    text-align: center;
 }
