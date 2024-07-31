@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalização de colunas</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif
+
+    }
+
+    table {
+       border-collapse: collapse;
+    }
+
+    td,th {
+        border: 1px solid black;
+        padding: 10px 20px 10px 20px ;
+        text-align: center; 
+    }
+
+    caption {
+        font-size: large;
+        font-weight: bold;
+        margin-bottom: 10px;
+
+    }
+
+    col.cname {
+        background-color: aquamarine;
+    }
+
+    col.cidade {
+        background-color: blueviolet;
+    }
+</style>
+<body>
+    <table>
+        <caption>Matriculas</caption>
+        <colgroup>
+            <col class="cname" span="2">
+            <col class="cidade" span="2">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Data</th>
+        </tr>
+        <tr>
+            <td colspan="2">Maria</td>
+            
+            <td>13</td>
+            <td>30/10/2011</td>
+        </tr>
+        <tr>
+            <td>Kaua</td>
+            <td>Masculino</td>
+            <td>21</td>
+            <td>30/12/2003</td>
+        </tr>
+
+    </table>
+</body>
+</html>
