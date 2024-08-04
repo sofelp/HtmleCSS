@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Formulário 4</title>
+    <style>
+        div {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        form {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocapitalize="on">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <h1>Receber Formulário</h1>
+            <p>
+                <label for="iname">Nome:</label>
+                <input type="text" name="name" id="iname" required minlength="5" placeholder="ex:joão" size="30">
+            </p>
+
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" size="50" placeholder="ex: joão@gmail.com">
+            </p>
+
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="itel" name="tel" autocomplete="tel" id="itel" placeholder="(99) 99999-9999" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+            </p>
+        </fieldset>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+         
+    </form>
+</body>
+</html>
