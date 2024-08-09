@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Formulário</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Emprego</legend><br>
+            <p>
+                <label for="iprof">Profissão:</label>
+                <select name="prof"  id="iprof">Profissão
+                    <optgroup label="Poberes">
+                        <option value="Prof" selected>Professor</option>
+                        <option value="Merc">Mercante</option>
+                        <option value="Gari">Gari</option>
+                        <option value="Denti">Dentista</option>
+                    </optgroup>
+                    <optgroup label="Ricos">
+                        <option value="Dev">Desenvolvedor</option>
+                        <option value="Poli">Politico</option>
+                        <option value="emp">Empresário</option>
+                    </optgroup>
+                </select>
+            </p>
+
+            <p>
+                <label for="iest">Estado:</label>
+                <input type="text" name="estados" id="iest" list="iestado">
+                    <datalist id="iestado">
+                        <option value="MG" selected  >Minas Gerais</option>
+                        <option value="SP"select>São Paulo</option>
+                        <option value="PA">Pará</option>
+                    </datalist>
+            </p>
+            <p>
+                <label for="icax">Mensagem:</label><br>
+                <textarea name="cax" id="icax" cols="30" rows="10" >Escreva aqui...</textarea>
+            </p>
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+</body>
+</html>
