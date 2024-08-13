@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*Estilos Relacionados a tela*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header > h1 {
+text-align: center;
+background-color: rgb(0, 0, 0);
+padding: 15px;
+color: white;
+padding-top: 25px;
+}
+header  li {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+ul {
+    padding: 0%;
+    background-color: black;
+}
+
+menu {
+    background-color: black;
+}
+
+main {
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/*Estilo Para Impressoras*/
+
+* {
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+menu {
+display: none;
+}
+
+article::after {
+content:'Este Site foi criado por studiofelipedesouza.com.br';
+}
