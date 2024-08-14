@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-/*estilos para orientação em paisagem*/
+/*Estilos Para Modo Retrato*/
 
 html, body {
-    background-image: url(../cev-landscape.jpg);
+    background-image: url(../cev-portrait.jpg);
     background-position: center bottom;
-    background-repeat: no-repeat;
     background-size: contain;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
 }
