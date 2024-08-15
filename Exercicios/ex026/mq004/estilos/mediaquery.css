@@ -34,9 +34,9 @@
     img#celular {display: none;}
 }
 
-@media screen and(min-width: 992px) and (max-width: 1200px){ /*PC*/
+@media screen and (min-width: 992px) and (max-width: 1200px){ /*PC*/
     body {
-        background-image: url(../Imagens/icon-pc.png);
+        background-image: url(../Imagens/back-pc.jpg);
     }
     img#tv {display: none;}
     img#tablet {display: none;}
