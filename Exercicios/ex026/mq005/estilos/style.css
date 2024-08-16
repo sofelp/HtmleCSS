@@ -23,6 +23,24 @@ header ul {
     list-style-type: none;
     text-align: center;
 }
+
+#burger {
+    background-color: var(--cor03);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    
+}
+
+#burger:hover {
+    background-color: var(--cor02);
+}
+
+menu {
+    display: none;
+}
+
 menu > ul > li > a {
     color: white;
     text-decoration: none;  
