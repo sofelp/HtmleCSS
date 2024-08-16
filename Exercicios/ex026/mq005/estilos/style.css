@@ -18,7 +18,7 @@ header h1 {
     font-weight: 800;
     font-size: 1.6em;
 }
-header ul {
+header li {
     background-color: var(--cor03);    
     list-style-type: none;
     text-align: center;
