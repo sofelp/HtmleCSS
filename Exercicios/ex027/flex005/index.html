@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamentos centralizado</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightblue;
+            overflow: auto;
+        }
+        main {
+            display: flex;
+            height: 90vh;
+            width: 90vw;
+            background-color: blue;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row nowrap;
+        }
+        section {
+            justify-content: center;
+            display: flex;
+            height: 50vh;
+            width: 50vw;
+            background-color: rgb(1, 1, 82);
+            align-items: center;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Center</h1>
+        </section>
+    </main>
+</body>
+</html>
